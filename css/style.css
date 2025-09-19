@@ -647,10 +647,23 @@ section.contact div.container div.right p{
   font-size: 1rem;
   line-height: 1.625rem;
 }
+
 }
 section.contact div.container div.right ul.details li a {
   text-decoration: none;
   color: inherit;
+}
+section.contact div.container div.right ul.social li:first-child a svg{
+  color: #1877f2 ;
+}
+section.contact div.container div.right ul.social li:nth-child(2) svg{
+  color: #c13584;
+}
+section.contact div.container div.right ul.social li:nth-child(3) svg{
+  color: #1da1f2;
+}
+section.contact div.container div.right ul.social li:nth-child(4) svg{
+  color: #0a66c2;
 }
 section.contact div.container div.right ul.social li svg{
   width: 20px;
@@ -670,7 +683,19 @@ section.contact div.container div.right ul.social li svg{
 }
 section.contact div.container div.right ul.social li:hover svg {
   border: 4px solid rgba(129, 174, 240, 0.5);
-  background-color: #0d6efd;
   color: white;
+}
+section.contact div.container div.right ul.social li:first-child:hover svg{
+  color: white;
+  background-color: #0d6efd;
+}
+section.contact div.container div.right ul.social li:nth-child(2):hover svg{
+  background-color: #c13584;
+}
+section.contact div.container div.right ul.social li:nth-child(3):hover svg{
+  background-color: #1da1f2;
+}
+section.contact div.container div.right ul.social li:nth-child(4):hover svg{
+  background-color: #0a66c2;
 }
 /* end contact */
