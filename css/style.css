@@ -71,7 +71,14 @@ nav.navbar div.container div ul li a {
 .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }
-
+@media screen and (max-width:768px) {
+  nav.navbar .nav-item a::after{
+    display: none;
+  }
+  nav.navbar .nav-item a:hover {
+    color: #1da1f2 !important;
+  }
+}
 /* end nav */
 /* start landing */
 div.landing{
