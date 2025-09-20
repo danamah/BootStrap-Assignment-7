@@ -483,11 +483,13 @@ div.blog div.container .title h2::after{
 div.blog div.container .title p{
   color: var(--default-color);
 }
-div.blog div.container .cards .card a img{
+div.blog div.container .cards .card .card-body{
   position: relative;
+}
+div.blog div.container .cards .card a img{
   cursor: pointer;
 }
-div.blog div.container .cards .card a+ p.title{
+div.blog div.container .cards .card .card-body p.title{
   font-size: 0.875rem;
   width: fit-content;
   border-radius:4px ;
@@ -497,13 +499,14 @@ div.blog div.container .cards .card a+ p.title{
   -o-border-radius:4px;
   margin-inline: auto;
   position: absolute;
-  top: 43%;
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+
 }
 div.blog div.container .cards .card .card-body h5{
   transition: 0.3s ease-in-out;
