@@ -10,7 +10,40 @@
     scroll-padding: 72px;
 }
 /* start nav */
-nav.navbar .nav-link 
+nav.navbar div.container .logo a {
+    font-family: var(--font-two);
+}
+nav.navbar div.container ul.navbar-nav li{
+  position: relative;
+  overflow: hidden;
+}
+nav.navbar div.container ul.navbar-nav li a{
+  font-weight: 600;
+  font-size: 1rem;
+}
+nav.navbar div.container ul.navbar-nav li a::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: -50%;
+  width: 80%;
+  transform: translateX(-50%);
+  background-color: white;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+nav.navbar div.container ul.navbar-nav li a.active::after{
+  transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
+  left: 50%;
+}
+/* nav.navbar .nav-link 
  {
   color: white !important;
 } 
@@ -49,16 +82,14 @@ nav.navbar .nav-item a.active::after{
 #portfolio:target ~ nav.navbar .nav-item a[href="portfolio"]{
   left: 50%;
 }
-nav.navbar div.container .logo a {
-    font-family: var(--font-two);
-}
 nav.navbar div.container div ul li {
     padding-inline: 10px;
 }
 nav.navbar div.container div ul li a {
     color: white;
     font-family: var(--font-one);
-}
+} */
+
 .dropdown-submenu {
   position: relative;
 }
