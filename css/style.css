@@ -43,53 +43,6 @@ nav.navbar div.container ul.navbar-nav li a.active::after{
   -o-transition: ease-in-out 0.3s;
   left: 50%;
 }
-/* nav.navbar .nav-link 
- {
-  color: white !important;
-} 
-nav.navbar .nav-item a {
-  position: relative;
-  overflow: hidden;
-}
-nav.navbar .nav-item a::after {
-  content: "";
-  position: absolute; 
-  height: 2px;
-  bottom: 0;
-  left: -50%;
-  width: 80%;
-  transform: translateX(-50%);
-  background-color: white;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transition: ease-in-out 0.3s;
-  -webkit-transition: ease-in-out 0.3s;
-  -moz-transition: ease-in-out 0.3s;
-  -ms-transition: ease-in-out 0.3s;
-  -o-transition: ease-in-out 0.3s;
-}
-nav.navbar .nav-item a:hover::after{
-  left: 50%;
-}
-nav.navbar .nav-item a.active::after{
-  left: 50%;
-}
-#home:target ~ nav.navbar .nav-item a[href="#home"]::after,
-#about:target ~ nav.navbar .nav-item a[href="#about"]::after,
-#services:target ~ nav.navbar .nav-item a[href="services"]::after,
-#portfolio:target ~ nav.navbar .nav-item a[href="portfolio"]{
-  left: 50%;
-}
-nav.navbar div.container div ul li {
-    padding-inline: 10px;
-}
-nav.navbar div.container div ul li a {
-    color: white;
-    font-family: var(--font-one);
-} */
-
 .dropdown-submenu {
   position: relative;
 }
@@ -118,6 +71,7 @@ div.landing{
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    background-attachment: fixed;
 }
 div.landing div.container h1{
     font-family: var(--font-two);
