@@ -72,7 +72,7 @@ nav.navbar div.container div ul li a {
 .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   nav.navbar .nav-item a::after{
     display: none;
   }
