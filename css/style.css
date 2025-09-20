@@ -695,3 +695,9 @@ section.contact div.container div.right ul.social li:nth-child(4):hover svg{
   background-color: #0a66c2;
 }
 /* end contact */
+/* Satrt footer */
+footer{
+  background-color: #0062d3;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3)  inset;
+}
+/* end footer */
